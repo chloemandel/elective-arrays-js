@@ -1,0 +1,25 @@
+{
+  "name": "javascript-arrays",
+  "version": "0.1.0",
+  "description": "Introduction to arrays in JavaScript",
+  "main": "array.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha -R mocha-multi --reporter-options nyan=-,json=.results.json"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "expect": "^1.20.1",
+    "jsdom": "^9.0.0",
+    "mocha": "^2.4.5",
+    "mocha-jsdom": "^1.1.0",
+    "mocha-multi": "^0.9.0"
+  },
+  "dependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-preset-es2015": "^6.24.1"
+  }
+}

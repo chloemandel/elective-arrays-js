@@ -1,0 +1,181 @@
+{
+  "stats": {
+    "suites": 10,
+    "tests": 9,
+    "passes": 4,
+    "pending": 0,
+    "failures": 5,
+    "start": "2017-07-26T03:35:46.503Z",
+    "end": "2017-07-26T03:35:51.285Z",
+    "duration": 4782
+  },
+  "tests": [
+    {
+      "title": "returns the count of the items in an array",
+      "fullTitle": "arrays countItems returns the count of the items in an array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the first item in a given array",
+      "fullTitle": "arrays firstItem returns the first item in a given array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the last item in a given array",
+      "fullTitle": "arrays lastItem returns the last item in a given array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the first item when an array is alphabetized",
+      "fullTitle": "arrays alphabeticalFirst returns the first item when an array is alphabetized",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a random item a given array",
+      "fullTitle": "arrays randomItem returns a random item a given array",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected [ 'drama', 'art history', 'spanish', 'yearbook' ] to include undefined\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toInclude (node_modules/expect/lib/Expectation.js:215:28)\n    at Context.<anonymous> (test/index-test.js:37:60)",
+        "message": "Expected [ 'drama', 'art history', 'spanish', 'yearbook' ] to include undefined"
+      }
+    },
+    {
+      "title": "returns an array where each item has been reversed",
+      "fullTitle": "arrays reverseEach returns an array where each item has been reversed",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected [ 'scimarec', 'yduts tnednepedni', 'cisum', 'yhpargotohp', 'scitobor', 'tnempoleved bew' ] to equal [ 'yhpargotohp', 'scimarec', 'cisum', 'scitobor', 'tnempoleved bew', 'yduts tnednepedni' ]\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)\n    at Context.<anonymous> (test/index-test.js:53:38)",
+        "message": "Expected [ 'scimarec', 'yduts tnednepedni', 'cisum', 'yhpargotohp', 'scitobor', 'tnempoleved bew' ] to equal [ 'yhpargotohp', 'scimarec', 'cisum', 'scitobor', 'tnempoleved bew', 'yduts tnednepedni' ]",
+        "actual": "[\n  \"scimarec\"\n  \"yduts tnednepedni\"\n  \"cisum\"\n  \"yhpargotohp\"\n  \"scitobor\"\n  \"tnempoleved bew\"\n]",
+        "expected": "[\n  \"yhpargotohp\"\n  \"scimarec\"\n  \"cisum\"\n  \"scitobor\"\n  \"tnempoleved bew\"\n  \"yduts tnednepedni\"\n]",
+        "showDiff": true
+      }
+    },
+    {
+      "title": "sums the items in an array",
+      "fullTitle": "arrays sum sums the items in an array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: sum is not defined\n    at Context.<anonymous> (test/index-test.js:60:14)",
+        "message": "sum is not defined"
+      }
+    },
+    {
+      "title": "gives the mean of the items in the array",
+      "fullTitle": "arrays average gives the mean of the items in the array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: average is not defined\n    at Context.<anonymous> (test/index-test.js:66:14)",
+        "message": "average is not defined"
+      }
+    },
+    {
+      "title": "gives the length of each item in the array",
+      "fullTitle": "arrays lengthFinder gives the length of each item in the array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: lengthFinder is not defined\n    at Context.<anonymous> (test/index-test.js:72:14)",
+        "message": "lengthFinder is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "returns a random item a given array",
+      "fullTitle": "arrays randomItem returns a random item a given array",
+      "duration": 4,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected [ 'drama', 'art history', 'spanish', 'yearbook' ] to include undefined\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toInclude (node_modules/expect/lib/Expectation.js:215:28)\n    at Context.<anonymous> (test/index-test.js:37:60)",
+        "message": "Expected [ 'drama', 'art history', 'spanish', 'yearbook' ] to include undefined"
+      }
+    },
+    {
+      "title": "returns an array where each item has been reversed",
+      "fullTitle": "arrays reverseEach returns an array where each item has been reversed",
+      "duration": 1,
+      "currentRetry": 0,
+      "err": {
+        "stack": "Error: Expected [ 'scimarec', 'yduts tnednepedni', 'cisum', 'yhpargotohp', 'scitobor', 'tnempoleved bew' ] to equal [ 'yhpargotohp', 'scimarec', 'cisum', 'scitobor', 'tnempoleved bew', 'yduts tnednepedni' ]\n    at assert (node_modules/expect/lib/assert.js:29:9)\n    at Expectation.toEqual (node_modules/expect/lib/Expectation.js:81:30)\n    at Context.<anonymous> (test/index-test.js:53:38)",
+        "message": "Expected [ 'scimarec', 'yduts tnednepedni', 'cisum', 'yhpargotohp', 'scitobor', 'tnempoleved bew' ] to equal [ 'yhpargotohp', 'scimarec', 'cisum', 'scitobor', 'tnempoleved bew', 'yduts tnednepedni' ]",
+        "actual": "[\n  \"scimarec\"\n  \"yduts tnednepedni\"\n  \"cisum\"\n  \"yhpargotohp\"\n  \"scitobor\"\n  \"tnempoleved bew\"\n]",
+        "expected": "[\n  \"yhpargotohp\"\n  \"scimarec\"\n  \"cisum\"\n  \"scitobor\"\n  \"tnempoleved bew\"\n  \"yduts tnednepedni\"\n]",
+        "showDiff": true
+      }
+    },
+    {
+      "title": "sums the items in an array",
+      "fullTitle": "arrays sum sums the items in an array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: sum is not defined\n    at Context.<anonymous> (test/index-test.js:60:14)",
+        "message": "sum is not defined"
+      }
+    },
+    {
+      "title": "gives the mean of the items in the array",
+      "fullTitle": "arrays average gives the mean of the items in the array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: average is not defined\n    at Context.<anonymous> (test/index-test.js:66:14)",
+        "message": "average is not defined"
+      }
+    },
+    {
+      "title": "gives the length of each item in the array",
+      "fullTitle": "arrays lengthFinder gives the length of each item in the array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: lengthFinder is not defined\n    at Context.<anonymous> (test/index-test.js:72:14)",
+        "message": "lengthFinder is not defined"
+      }
+    }
+  ],
+  "passes": [
+    {
+      "title": "returns the count of the items in an array",
+      "fullTitle": "arrays countItems returns the count of the items in an array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the first item in a given array",
+      "fullTitle": "arrays firstItem returns the first item in a given array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the last item in a given array",
+      "fullTitle": "arrays lastItem returns the last item in a given array",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns the first item when an array is alphabetized",
+      "fullTitle": "arrays alphabeticalFirst returns the first item when an array is alphabetized",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    }
+  ]
+}
